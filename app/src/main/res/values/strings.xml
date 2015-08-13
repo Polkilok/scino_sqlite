@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScinoSqlite</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_book_button_text">Add Book</string>
+    <string name="add_book_button_ok_text">Ok</string>
+    <string name="add_book_button_cancle_text">Cancel</string>
+    <string name="add_book_edit_text_hint">Book name</string>
+
+    <string name="error_to_add_book_name">Book name is empty.</string>
+
+    <string name="add_book_fragment_title">Add book</string>
+</resources>

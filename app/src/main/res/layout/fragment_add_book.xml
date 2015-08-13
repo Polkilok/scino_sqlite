@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_name_edit_text"
+        android:hint="@string/add_book_edit_text_hint"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:id="@+id/button_ok"
+        android:minWidth="64dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:layout_below="@+id/book_name_edit_text"
+        android:text="@string/add_book_button_ok_text"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:id="@+id/button_cancel"
+        android:text="@string/add_book_button_cancle_text"
+        android:minWidth="64dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/button_ok"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/button_ok"/>
+    
+</RelativeLayout>
